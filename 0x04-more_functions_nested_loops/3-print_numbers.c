@@ -2,14 +2,14 @@
 
 /**
  * print_numbers - Print numbers from 0 to 9 and print a newline
- * Author : YounesXXXXX
+ * Author: YounesXXXXX
  */
 
 void print_numbers(void)
 {
 	int i;
 
-	for ( i = 0; i >= 0 && i <= 9; i++)
+	for (i = 0; i >= 0 && i <= 9; i++)
 	{
 		_putchar(i + '0');
 	}
