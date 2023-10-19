@@ -2,7 +2,8 @@
 #include <string.h>
 
 /**
- * _strncat - Concatenates two strings with a limit on the number of characters.
+ * _strncat - Concatenates two strings with
+ * a limit on the number of characters.
  * @dest: The destination string.
  * @src: The source string.
  * @n: The maximum number of characters to concatenate from src.
@@ -14,6 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j = 0;
+
 
 	while (dest[i] != '\0')
 	{
