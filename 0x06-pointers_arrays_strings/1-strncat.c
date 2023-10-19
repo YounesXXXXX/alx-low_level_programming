@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strncat - Concatenates two strings with a limit on the number of characters.
@@ -13,12 +14,13 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j = 0;
+	int k = strlen(src);
 
 	while (dest[i] != '\0')
 	{
 		i++;
 	}
-	while (j < n)
+	while (j < n && j <= k)
 	{
 		dest[i] = src[j];
 		i++;
